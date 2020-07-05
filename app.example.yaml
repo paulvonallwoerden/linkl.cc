@@ -1,0 +1,11 @@
+runtime: nodejs
+env: flex
+
+env_variables:
+  MYSQL_SOCKETPATH: <PROJECT_ID:REGION:INSTANCE_ID>
+  MYSQL_USER: root
+  MYSQL_PASSWORD: <DATABASE PASSWORD>
+  MYSQL_DATABASE: linkl_cc
+
+beta_settings:
+  cloud_sql_instances: <PROJECT_ID:REGION:INSTANCE_ID>
